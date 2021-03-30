@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="The spoonacular Nutrition, Recipe, and
+		Food API allows you to access over 365,000 recipes and 86,000 food
+		products. Our food ontology and semantic recipe search engine makes it
+		possible to search for recipes using natural language queries, such as
+		"gluten free brownies without sugar" or "low fat vegan cupcakes." You
+		can automatically calculate the nutritional information for any recipe,
+		analyze recipe costs, visualize ingredient lists, find recipes for
+		what's in your fridge, find recipes based on special diets, nutritional
+		requirements, or favorite ingredients, classify recipes into types and
+		cuisines, convert ingredient amounts, or even compute an entire meal
+		plan. With our powerful API, you can create many kinds of food and
+		especially nutrition apps.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="#" type="image/x-icon" />
+		<script src="app.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/4eb06f28f3.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Recipe - Food - Nutrition</title>
+	</head>
+	<body>
+		<main>
+			<header class="nav">
+				<nav>
+					<div>
+						<input
+							type="text"
+							placeholder="search recipe"
+							id="input"
+						/><i class="fas fa-search" id="search"></i>
+					</div>
+				</nav>
+			</header>
+			<section class="main">
+				<div class="recipes"></div>
+			</section>
+		</main>
+	</body>
+</html>
